@@ -41,3 +41,14 @@ Found two new models for Super Resolution called BIRD and OSEDiff. Read over res
 # June 17th
 
 The goal for this day was to try to implement the two implementations. Unfortunately, today was a rough day: BIRD required a GPU node, and there were connectivity issues with the GPU nodes. I also tried reimplementing on Google Colab but had issues with unzipping my files. I then moved to Jupyter Notebook by connecting through Polaris and my School Account using Anvil, but both sessions failed to start. Spent some time testing the new images I acquired in the Real-ESRGAN model. Also started looking into Docker for future setup with the GPU node.
+
+# June 18th
+
+Goals:
+- Try to run other Real-ESRGAN implementations and BIRD in Google Colab and compare results
+- See if it works on Jupyter Notebook through Polaris and the GPU Node as well
+- Figure out how to improve results or work with results and create a GUI user friendly interface with it
+
+Update 1:
+- Was able to run N00MKRAD's implementations of Real-ESRGAN that are specifically trained on real world images. Will continue updating on results but it seems to not be much of a difference
+- Polaris and the GPU node is unable to connect to the internet, so I am unable to import any packages using pip commands. Will continue to use Colab for now until it is fixed.
