@@ -56,3 +56,31 @@ Update 1:
 Final Update:
 - There did not seem to be much of a difference between other implementations of Real-ESRGAN trained on real world images with the results I showed last week. Maybe an improved GPU could have an improvement but highly doubt it
 - Started looking into Polaris, since Dario taught me how to import files into Polaris using Containers. Seems like I need to study Docker for tomorrow.
+
+# June 19th
+
+Goals:
+- Run BIRD in Google Colab
+- Try to get Docker working
+
+Update 1:
+- I should've read the BIRD research paper with a little more effort, since the results did not seem as promising as Real-ESRGAN.
+
+Update 2:
+- After searching super resolution on YouTube for roughly one hour, I found two models that have promising results which were featured by the YouTube channel "Two Minute Papers".
+- Models are called GigaGAN and SUPIR
+- Going to do some research and test out both models
+
+Final Update:
+- Was not expecting how big of an improvement the SUPIR model ended up being
+  - Will show the visual results in the presentation on June 20th, but it is a much bigger improvement compared to Real-ESRGAN
+  - Difference between Real-ESRGAN lies in the prompt you can feed the model beforehand to guide it to the right path
+  - Unfortunately computationally expensive, so can only test on small images
+- GigaGAN did not have an open-sourced implementation, and seemed to not be viable with its ridiculous computation power
+
+# June 20th
+
+Goals:
+- Finish up testing SUPIR before the presentation today
+  - Try to generate smaller output images to test efficiency
+  - Test inputs that have text
