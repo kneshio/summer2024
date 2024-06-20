@@ -84,3 +84,9 @@ Goals:
 - Finish up testing SUPIR before the presentation today
   - Try to generate smaller output images to test efficiency
   - Test inputs that have text
+ 
+Update 1:
+- After some testing, I also discovered that SUPIR is not very good at generating text, even if you try to help it by adding text.
+  - Moving forward, I want to try to work around this by incorporating a model with SUPIR that generates text well.
+  - When I have access, I want to test the model on the small blurry images Seongha sent.
+  - Start learning Docker to setup the model locally in Argonne systems
