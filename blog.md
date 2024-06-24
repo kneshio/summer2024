@@ -90,3 +90,22 @@ Update 1:
   - Moving forward, I want to try to work around this by incorporating a model with SUPIR that generates text well.
   - When I have access, I want to test the model on the small blurry images Seongha sent.
   - Start learning Docker to setup the model locally in Argonne systems
+
+# June 21st
+
+Goals:
+- Test the small blurry images
+- Study Docker
+- Study Source Code and have it successfully run in local systems
+
+Update:
+- SUPIR works well on the small blurry images
+- Docker is quite complicated
+  - Getting GPU to work on PyTorch is quite tedious
+- Searching for additional source code for the SUPIR model so I can figure out what to use for the final product
+
+# June 24th
+
+Goals:
+- Continue studying source code and hopefully get a working implementation done by today
+- Study more Docker
