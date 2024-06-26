@@ -99,7 +99,7 @@ Goals:
 - Study Source Code and have it successfully run in local systems
 
 Update:
-- SUPIR works well on the small blurry images
+- SUPIR works well on the small blurry images when testing on the online demo
 - Docker is quite complicated
   - Getting GPU to work on PyTorch is quite tedious
 - Searching for additional source code for the SUPIR model so I can figure out what to use for the final product
@@ -107,5 +107,19 @@ Update:
 # June 24th
 
 Goals:
-- Continue studying source code and hopefully get a working implementation done by today
+- Continue studying source code on SUPIR
 - Study more Docker
+
+Update: 
+- Found the old Waggle-sensor Dockerfile that I could possibily use for my code
+- Searched online for additional code implementations of SUPIR
+  - The UI version I showed on Thursday is a paid implementation, so I cannot directly access the source code
+  - There is another free implementation, but uses a ComfyUI system so it is much more tedious for the user to use
+
+# June 25th
+
+Update:
+- I was working at home due to the bad weather
+- Decided to study alternative ways to access GPU nodes, so I was looking into Polaris Jupyter Notebook and how to run GPU, since it is running CPU by default
+- Watched the old resources under https://docs.alcf.anl.gov/services/jupyter-hub/ in hopes of setting it up
+- Still having trouble setting up GPU
