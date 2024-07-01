@@ -123,3 +123,38 @@ Update:
 - Decided to study alternative ways to access GPU nodes, so I was looking into Polaris Jupyter Notebook and how to run GPU, since it is running CPU by default
 - Watched the old resources under https://docs.alcf.anl.gov/services/jupyter-hub/ in hopes of setting it up
 - Still having trouble setting up GPU
+
+# June 26th
+
+Update:
+- Looked through very useful tutorials on learning Docker: language is not as hard to learn as I thought
+  - Turns out the old Waggle-sensor Dockerfile is not needed, and I can try to implement it myself
+- Found real open-sourced directions on setting up SUPIR on Reddit, so will start writing a Dockerfile that follows these directions
+  - https://www.reddit.com/r/StableDiffusion/comments/1b37h5z/supir_super_resolution_tutorial_to_run_it_locally/
+
+# June 27th
+
+Update:
+- Finished writing a brief outline of the Dockerfile
+- Spent some time tweaking the Dockerfile to import the right packages and dependencies
+- Started working on Abstract
+
+# June 28th
+
+Update:
+- Figured out how to install images: installed python 3.10:buster
+- Figured out how to add the necessary packages
+- Work was pretty smooth until I tried to install dependencies listed in requirements.txt so I need to fix that later
+
+# July 1st 
+
+Goals:
+- Fix the issue with requirements.txt
+- Hopefully get the rest of the installation process working
+
+Update:
+- Was successfully able to fix the dependencies issue after going through the reddit tutorial comments page
+  - I edited the requirements.txt file for two different libraries to a different version
+  - I manually did git clone from terminal and called the folder SUPIR and manually edited the requirements.txt to make this work
+  - Ran into an issue in the middle where it could not find my SUPIR folder but performing docker rmi -f on the image seemed to fix it.
+- Got the rest technically working but not sure if my code fully works yet so need to tweek it more tomorrow
